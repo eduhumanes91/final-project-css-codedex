@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family:"Montserrat", sans-serif;
+    background-color: #020202;
+    padding: 40px 30px;
+    color: beige;
+}
+
+li, a {
+    text-decoration: none;
+    color: beige;
+}
+
+.header-up {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.header-info{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.avatar {
+    width: 150px;
+    height: 150px;
+    border-radius: 200px;
+    background-color: #16db65;
+}
+
+.social-links{
+    display: flex;
+    gap: 10px;
+    list-style: none;
+    align-items: center;
+}
+
+#email-link {
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: #16db65;
+}
+
+#cv, #github, #linkedin {
+    padding: 10px;
+    border-radius: 15px;
+    color: #16db65;
+    border: 1px solid #16db65;
+}
+
+i {
+    color: #16db65;
+}
+
+#email-icon {
+    color: beige;
+}
