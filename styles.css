@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-straight/css/uicons-thin-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css');
 
 * {
     margin: 0;
@@ -64,11 +66,11 @@ ul{
     border-radius: 15px;
     color: #16db65;
     border: 1px solid #16db65;
-    background-color: #04471c;
 }
 
 i {
     color: #16db65;
+    width: 20px;
 }
 
 #email-icon {
@@ -85,12 +87,61 @@ i {
     border-bottom:  0.25px solid #058c42;
 }
 
+main {
+    text-align: left;
+    width: 900px;
+}
+
+section {
+    padding: 25px 0;
+}
+
 .section-tecnologys{
     display: flex;
     flex-direction: column;
     text-align: start;
+    gap: 20px;
 }
 
 .tecnology-list {
     display: flex;
+    gap: 20px;
+}
+
+.tecnology-icon {
+    padding: 10px;
+    border-radius: 15px;
+    color: #16db65;
+    background-color: #04471c;
+}
+
+.experience-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding: 20px 0;
+}
+
+.experience-left {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    max-width: 600px;
+}
+
+.experience-icon, .experience-date {
+    background-color: #04471c;
+    border-radius: 75px;
+    padding: 10px;
+    color: #16db65;
+}
+
+.experience-date {
+    font-size: small;
+}
+
+.experience-text {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
