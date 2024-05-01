@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-thin-straight/css/uicons-thin-straight.css');
 @import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-regular-straight/css/uicons-regular-straight.css');
+@import url('https://cdn-uicons.flaticon.com/2.3.0/uicons-bold-rounded/css/uicons-bold-rounded.css');
 
 * {
     margin: 0;
@@ -44,10 +45,10 @@ ul{
     width: 150px;
     height: 150px;
     border-radius: 200px;
-    background-color: #16db65;
+    background-color: #04471b8a;
 }
 
-.social-links{
+.social-links, .footer-links {
     display: flex;
     gap: 10px;
     list-style: none;
@@ -58,18 +59,18 @@ ul{
     text-decoration: none;
     padding: 10px;
     border-radius: 20px;
-    background-color: #16db65;
+    background-color: #04471c;
 }
 
 #cv, #github, #linkedin {
-    padding: 10px;
+    padding: 3px 10px;
     border-radius: 15px;
-    color: #16db65;
-    border: 1px solid #16db65;
+    color: #71d083;
+    border: 1px solid #71d083;
 }
 
 i {
-    color: #16db65;
+    color: #71d083;
     width: 20px;
 }
 
@@ -87,7 +88,7 @@ i {
     border-bottom:  0.25px solid #058c42;
 }
 
-main {
+main, footer {
     text-align: left;
     width: 900px;
 }
@@ -96,7 +97,7 @@ section {
     padding: 25px 0;
 }
 
-.section-tecnologys{
+.section-tecnologys, .section-formation{
     display: flex;
     flex-direction: column;
     text-align: start;
@@ -111,37 +112,86 @@ section {
 .tecnology-icon {
     padding: 10px;
     border-radius: 15px;
-    color: #16db65;
+    color: #71d083;
     background-color: #04471c;
 }
 
-.experience-container {
+.experience-container, .project-container, .formation-container {
     display: flex;
     justify-content: space-between;
     gap: 15px;
     padding: 20px 0;
 }
 
-.experience-left {
+.experience-left, .project-left, .formation-left {
     display: flex;
     gap: 20px;
     align-items: center;
     max-width: 600px;
 }
 
-.experience-icon, .experience-date {
+.experience-icon, .experience-date, .project-icon, .formation-icon, .formation-date {
     background-color: #04471c;
     border-radius: 75px;
     padding: 10px;
-    color: #16db65;
+    color: #71d083;
 }
 
-.experience-date {
+.experience-date, .formation-date {
     font-size: small;
 }
 
-.experience-text {
+.experience-text, .project-text, .formation-text {
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
+
+.project-img{
+    width: 100px;
+    border-radius: 10px;
+
+}
+
+#project-stack-icon {
+    padding: 5px;
+    border-radius: 15px;
+    color: grey;
+    background-color: #141414;
+    font-size: small;
+}
+
+.formation-rigth {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.formation-check {
+    background-color: #71d083;
+    padding: 3px 10px;
+    border-radius: 15px;
+}
+
+.formation-check > i {
+    color: beige;
+}
+
+.section-formation{
+    border-bottom:  0.25px solid #058c42;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    text-align: start;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.footer-links {
+    max-width: 500px;
+}
+
+
